@@ -15,4 +15,4 @@ def list_files(startpath, exclude_folders=None):
         for f in files:
             print(f"{sub_indent}{f}")
 
-list_files('d:/myscreen/', exclude_folders=['env', '.git'])
+list_files('d:/myscreen/', exclude_folders=['env', '.git', '__pycache__'])
